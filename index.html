@@ -27,24 +27,85 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
+                        'basic-color': '#B68C5A',
                     }
                 }
             }
         }
     </script>
     <style>
-        .font-EB {
+        .eb {
             font-family: 'EB Garamond', serif;
         }
-        .font-Poppins {
+
+        .poppins {
             font-family: 'Poppins', sans-serif;
         }
     </style>
 </head>
 
-<body class="">
+<body class="eb">
 
-    <h1 class="">onekk ok </h1>
+    <header>
+        <div class="container mx-auto">
+            <div class="navbar bg-white md:py-14 md:px-0">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>Service <i class="fa-solid fa-angle-right"></i></a></li>
+                            <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                            <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                            <li><a>Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">
+                        <img src="images/logo2.png" alt="img">
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Service <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Cases <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Blog <i class="fa-solid fa-angle-right"></i></a></li>
+                        <li><a>Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-basic-color text-white poppins font-semibold mr-0">Free Consultation</a>
+                </div>
+            </div>
+
+            <!-- bannar secion start -->
+            <section>
+                <div class="hero md:h-[550px] rounded-lg" style="background-image: url(images/banner.png);">
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div class="hero-content text-center text-neutral-content">
+                      <div class="">
+                        <h1 class="mb-5 text-7xl font-bold ">We Provide Effective <br>Legal Solutions</h1>
+                        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                        <div class="space-x-5">
+                            <input type="text" placeholder="Search your services" class="input w-full max-w-xs" />
+                            <button class="btn bg-basic-color text-white font-extrabold text-xl">Search</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <!-- bannar secion end -->
+        </div>
+    </header>
+
+
 
 </body>
 
